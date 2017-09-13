@@ -1,0 +1,5 @@
+ia:		Observable.cpp iaclientsingleton.cpp ClientIA.cpp main.cpp
+		g++ Observable.cpp iaclientsingleton.cpp ClientIA.cpp main.cpp -llua -ldl -W -Wall -Werror
+
+clean:
+		rm -f ia
